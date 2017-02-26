@@ -1,4 +1,4 @@
-update=Sat Feb 11 12:04:52 2017
+update=Sun Feb 26 14:56:52 2017
 version=1
 last_client=kicad
 [pcbnew]
@@ -112,3 +112,4 @@ LibName80=transf
 LibName81=ttl_ieee
 LibName82=video
 LibName83=AirBoxnano
+LibName84=/home/dan/Documents/ESPGB/espgb

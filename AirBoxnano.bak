@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:AirBoxnano-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -111,7 +112,7 @@ A0
 Text Label 10275 975  0    60   ~ 0
 AREF
 $Comp
-L ATmega32U4-AU U1
+L ATmega32U4-AU-RESCUE-AirBoxnano U1
 U 1 1 572024B2
 P 3550 2625
 F 0 "U1" H 2650 4325 50  0000 C CNN
@@ -290,7 +291,7 @@ F 3 "" H 7075 5300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_B CONN1
+L USB_B-RESCUE-AirBoxnano CONN1
 U 1 1 57207054
 P 950 5025
 F 0 "CONN1" H 1150 4825 50  0000 C CNN
