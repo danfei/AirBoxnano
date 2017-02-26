@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 4961)
+    (start_pass_no 3560)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -69,7 +69,8 @@
     "Net-(P2-Pad3)" /D4 /D5 "Net-(P2-Pad6)" /A2 /A3 /A4 /A5
     /A1 /A0 /RESET /MOSI /SCK /MISO /D1 /D7
     /D0 /IO8 /IO9 /IO10 /IO11 /IO12 /IO13 /D+
-    "/D-" "/RX_LED" "/TX_LED" /HWB "Net-(U3-Pad3)" "Net-(U3-Pad4)"
+    "/D-" "/RX_LED" "/TX_LED" /HWB "Net-(U3-Pad3)" "Net-(U3-Pad4)" "Net-(C3-Pad1)" "Net-(D1-Pad1)"
+    "Net-(R4-Pad1)" "Net-(R7-Pad2)" "Net-(R8-Pad1)" "Net-(U4-Pad4)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
