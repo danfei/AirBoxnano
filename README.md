@@ -1,4 +1,5 @@
 #AirBoxnano
+version 0.3
 
 Schematic
 ------------
@@ -7,8 +8,8 @@ Schematic
 Screenshots
 ------------
 
-![](https://github.com/danfei/AirBoxnano/raw/master/images/Screenshot_2017-02-26_13-37-55.png)
-![](https://github.com/danfei/AirBoxnano/raw/master/images/Screenshot_2017-02-26_13-38-11.png)
+![](https://github.com/danfei/AirBoxnano/raw/master/images/v3f.png)
+![](https://github.com/danfei/AirBoxnano/raw/master/images/v3b.png)
 
 License
 ------------
