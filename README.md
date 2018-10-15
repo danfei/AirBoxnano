@@ -4,7 +4,7 @@ This project uses the Plantower PMS5003S to detect PM2.5 and formaldehyde in the
 
 Photo
 ------------
-![](https://github.com/szdiy/AirBoxnano/raw/master/images/v5.jng)
+![](https://github.com/szdiy/AirBoxnano/raw/master/images/v5.jpg)
 
 Schematic
 ------------
