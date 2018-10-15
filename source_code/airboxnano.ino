@@ -71,13 +71,13 @@ void PMCallback(){
                     +panteng.d1[0]+panteng.d1[1]+panteng.d1[2]+panteng.d1[3]+panteng.d1[4]+panteng.d1[5]+panteng.d1[6]+panteng.d1[7]+panteng.d1[8]+panteng.d1[9]+panteng.d1[10]+panteng.d1[11]+panteng.hcho[0]+panteng.hcho[1];
                     int hash2 = panteng.d2[0] * 256 + panteng.d2[1];
                     
-                    hcho = (panteng.hcho[0] * 256 + panteng.hcho[1])/1000; 
                     
                     if(hash1 == hash2)
                     {
                       pm1_0 = pm1_0t;
                       pm2_5 = pm2_5t;
                       pm10_0 = pm10_0t;
+                      hcho = ((float)(panteng.hcho[0] * 256 + panteng.hcho[1]))/1000.0; 
                       //Serial.print("hash");
                       //Serial.println(hash1,HEX);
                      }
@@ -147,7 +147,7 @@ void loop()
     display.clearDisplay();
     delay(2000);
     
-    snprintf(str,16, "hcho =%d  mg/m3", hcho);
+    snprintf(str,16, "HCHO =%d  mg/m3", hcho);
     Serial.println(str);
     display.setCursor(0,0);
     display.print("HCHO=");
