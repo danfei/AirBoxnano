@@ -1,6 +1,6 @@
 AirBoxnano
 ============
-This project uses the Plantower PMS5003S to detect PM2.5 and formaldehyde in the air.
+This project uses the Plantower PMS5003S to detect PM2.5 and HCHO in the air.
 
 Photo
 ------------
@@ -27,6 +27,10 @@ License
 ------------
 This project is released under the CC BY-SA license.
 ![](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
+
+Support
+------------
+df4v@qq.com
 
 [schem]:https://github.com/danfei/AirBoxnano/raw/master/hardware/AirBoxnano.pdf
 [bom]:https://github.com/danfei/AirBoxnano/raw/master/manufacturing/AirBoxnano_bom.csv
